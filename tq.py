@@ -6,6 +6,7 @@ for arr in matrix_e:
         arr2.append(item+1)
     matrix_2.append(arr2)
 print(matrix_2)
+ppp
 '''
 n = int(input())
 def adding(n):
