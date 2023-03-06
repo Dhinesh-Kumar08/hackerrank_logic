@@ -6,6 +6,8 @@
 
 a=int(input())
 b=int(input())
-print(a+b)
-print(a-b)
-print(a*b)
+def aritmetic_oper(a,b):
+    print(a+b)
+    print(a-b)
+    print(a*b)
+aritmetic_oper(a,b)

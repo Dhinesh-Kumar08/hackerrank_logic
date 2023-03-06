@@ -8,6 +8,8 @@
 
 
 n=int(input())
-for n in range(0,n):
-    i=n*n
-    print(i)
+def square_root(n):
+    for n in range(0,n):
+        i=n*n
+        print(i)
+    return n
