@@ -22,5 +22,5 @@ def list_comprehension(x,y,z,n):
     for j in range(y+1)
     for k in range(z+1)
         if (i+j+k) !=n]
-    print(newlist)
-    
+    return newlist
+list_comprehension(x,y,z,n)

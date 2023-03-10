@@ -9,7 +9,8 @@
 
 n=int(input())
 def square_root(n):
-    for n in range(0,n):
+    for n in range(1,n):
         i=n*n
         print(i)
-    return n
+    return i
+square_root(n)

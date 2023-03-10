@@ -1,13 +1,9 @@
 # to find leap or not
 #using boolean and function
 def is_leap(year):  
-    leap=False  
+    leap=False,"it is not leap year"  
     if (year % 4 == 0):
-        leap = True
-        if (year % 100 == 0):
-            leap = False
-            if (year % 400 == 0):
-                leap = True
+        leap = True,"it is leap year"
     return leap
 
 

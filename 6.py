@@ -35,22 +35,7 @@ n=int(input())
 def oddoreven(n):
     for i in range(1,n+1): 
         if i % 2 == 0:
-            print(i)
+            print("it is odd",i)
         else:
-            print(i)
+            print("it is even",i)
 oddoreven(n)
-
-
-
-h=[]
-
-def added_lst(n):
-    for i in range(1,n+1):
-        if i % 2 == 0:
-            h.append(i)
-            print(h)
-        else:
-            h.append(i)
-            print(h)
-    return h
-added_lst(n)
