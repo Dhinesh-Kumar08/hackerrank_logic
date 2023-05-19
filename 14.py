@@ -2,6 +2,3 @@
 '''i have boubt'''
 a = str(input())
 b = str (input())
-for n in a:
-    for  j in b:
-        

@@ -1,3 +1,7 @@
+
+
+
+#doubt on how it get function there some error on program
 a1=int(input())
 a2=int(input())
 a3=int(input())

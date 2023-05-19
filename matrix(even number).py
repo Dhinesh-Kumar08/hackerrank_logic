@@ -8,7 +8,7 @@ for arr in matrix_e:
 print(matrix_2)
 ppp
 '''
-n = int(input())
+n = int(input("enter the number:"))
 def adding(n):
     matrix = []
     for i in range(1,n+1):

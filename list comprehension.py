@@ -10,10 +10,10 @@ sample output
 [[000],[001],[010],[100],[111]]
 '''
 
-x = int(input())
-y = int(input())
-z = int(input())
-n = int(input())
+x = int(input("value of x :"))
+y = int(input("value of y :"))
+z = int(input("value of z :"))
+n = int(input("value of n :"))
 # Using list comprehension
 
 def list_comprehension(x,y,z,n):
@@ -23,4 +23,4 @@ def list_comprehension(x,y,z,n):
     for k in range(z+1)
         if (i+j+k) !=n]
     return newlist
-list_comprehension(x,y,z,n)
+print(list_comprehension(x,y,z,n))
