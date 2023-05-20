@@ -1,2 +1,3 @@
 # logicals
-preparation of logicaly
+preparation for logicaly
+by get idea about problem solving 
