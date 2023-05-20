@@ -1,8 +1,10 @@
-'''https://www.hackerrank.com/challenges/python-mutations/problem?isFullScreen=true'''
-
-string = str(input())
-s = list(string)
-i,c = input().split()
-s[i] = c
-string =''.join(s)
-print(string)
+s = input()
+i, c = input().split()
+s_new = (s, int(i), c)
+print(i)
+print(s_new)
+result = list(map(str,s))
+print(result)
+result[int(i)]=c
+out =''.join(map(str, result))
+print(out)
