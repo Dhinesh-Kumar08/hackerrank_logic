@@ -1,16 +1,13 @@
-
-'''https://www.hackerrank.com/challenges/swap-case/problem?isFullScreen=true'''
-
-a = "Hello World"
-b = 'qwertyuiopasdfghjklzxcvbnm'
-c = "QWERTYUIOPASDFGHJKLZXCVBNM"
-d=""
+a =input()
+arr = []
 for i in a:
-    if i in b:
-        l =i.upper()
-        d=d+l
-        
-    elif i in c:
-        h =i.lower()
-        d = d+h
-print(d)
+    if i.isupper():
+        odd =i.lower()
+        arr.append(odd)
+    elif i.islower():
+        odd2 = i.upper()
+        arr.append(odd2)
+    else:
+        arr.append(i)
+arr2 ="".join(arr)
+print(arr2)
