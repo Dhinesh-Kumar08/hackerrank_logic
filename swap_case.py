@@ -1,4 +1,4 @@
-a =input()
+a = "Jaya Suriya"
 arr = []
 for i in a:
     if i.isupper():
