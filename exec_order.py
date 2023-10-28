@@ -4,8 +4,6 @@ def f():
     print(s)
     s = "Look for Geeksforgeeks Python Section"
     print(s)
- 
- 
 # Global Scope
 s = "Python is great !"
 f()
